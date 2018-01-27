@@ -25,7 +25,7 @@ if __name__ == '__main__':
 
     # Use stronger secret in production env
     app.secret_key = 'somesecretkey'
-    # Run app at default port 8000
+    # Run app at default port 5000
     app.run(host='0.0.0.0', port=port)
 
     # Turn off debugging in production env
